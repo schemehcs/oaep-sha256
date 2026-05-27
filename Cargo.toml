@@ -1,0 +1,11 @@
+[package]
+name = "oaep-sha256"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hex = "0.4.3"
+rand = "0.10.1"
+sha256 = { git = "https://github.com/schemehcs/sha256.git" }
+mgf1-sha256 = { git = "https://github.com/schemehcs/mgf1-sha256.git" }
+subtle = "2.6.1"
